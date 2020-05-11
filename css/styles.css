@@ -32,4 +32,6 @@
   background-image: url(../assets/backgrounds/s_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: #ffffff;
+  text-align: center;
 }
