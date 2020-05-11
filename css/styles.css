@@ -42,6 +42,20 @@
 #services h1 {
   padding-top: 12%;
 }
+#do h4 {
+  text-align: center;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
 .row{
-  margin-left: 20%;
+  text-align: center;
+}
+.design {
+  margin: 5%;
+}
+.development {
+  margin: 5%;
+}
+.product {
+  margin: 5%;
 }
