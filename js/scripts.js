@@ -11,10 +11,19 @@ $(document).ready(function() {
     $(".design-showing").toggle();
   });
 });
+
 $(document).ready(function() {
   $(".dev").click(function(event) {
     event.preventDefault();
     $(".development-hidden").toggle();
     $(".development-showing").toggle();
+  });
+});
+
+$(document).ready(function() {
+  $(".prod").click(function(event) {
+    event.preventDefault();
+    $(".product-hidden").toggle();
+    $(".product-showing").toggle();
   });
 });
