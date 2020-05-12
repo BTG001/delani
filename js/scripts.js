@@ -11,3 +11,10 @@ $(document).ready(function() {
     $(".design-showing").toggle();
   });
 });
+$(document).ready(function() {
+  $(".dev").click(function(event) {
+    event.preventDefault();
+    $(".development-hidden").toggle();
+    $(".development-showing").toggle();
+  });
+});
