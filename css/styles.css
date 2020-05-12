@@ -69,6 +69,15 @@
   margin-top: 3%;
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-repeat: no-repeat;
+  background-size: cover;
+  padding-bottom: 2%;
+}
+#contact h5 {
+  text-align: center;
+  margin-top: 3%;
+  color: white;
+  padding-top: 5%;
+  padding-bottom: 2%;
 }
 #name, #mail, #text {
   margin-bottom: 3%;
@@ -99,11 +108,6 @@
 }
 .product-showing {
   display: none;
-}
-.banner10 {
-  background-image: url(../assets/backgrounds/c_image.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 #portfolio {
   display: flex;
