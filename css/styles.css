@@ -64,6 +64,18 @@
   margin-top: 5%;
   margin-bottom: 3%;
 }
-.work5 {
-  margin-right: 5px;
+
+#contact {
+  margin-top: 5%;
+}
+
+#name, #mail, #text {
+  margin-bottom: 3%;
+}
+#btn {
+  background-color: skyblue;
+  color: white;
+}
+#form-group {
+  margin-left: 5%;
 }

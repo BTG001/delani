@@ -63,14 +63,25 @@
     </section>
     <section id="contact">
       <div class="container">
-          <form id="blanks">
-            <div class="form-group">
-              <input id="name" class="form-control" type="text" placeholder="Name...">
-              <input id="mail" class="form-control" type="text" placeholder="Email...">
-              <textarea id="text" class="form-control" rows="5" placeholder="Your Message Here"></textarea>
-            </div>
-
-          </form>
+        <div class="rows">
+          <div id="blanks">
+            <form>
+              <div class="col-md-auto"><div class="form-group">
+                <input id="name" class="form-control" type="text" placeholder="Name...">
+              </div>
+              </div>
+              <div class="col-md-auto"><div class="form-group">
+                <input id="mail" class="form-control" type="text" placeholder="Email...">
+              </div>
+              </div>
+              <div class="col-md-auto"><div class="form-group">
+                <textarea id="text" class="form-control" rows="8" placeholder="Your Message Here"></textarea>
+              </div>
+              </div>
+              <div class="row justify-content-md-center">
+                <div class="col-md-6"><button type="submit" class="form-control" id="btn">Send</button>
+                </div>
+            </form>
         </div>
       </div>
     </section>
