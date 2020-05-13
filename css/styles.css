@@ -65,30 +65,17 @@
   margin-bottom: 3%;
 }
 
-#contact {
+.contactme {
   margin-top: 3%;
   background-image: url(../assets/backgrounds/c_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   padding-bottom: 2%;
 }
-#contact h5 {
+.contactme h5 {
   text-align: center;
-  margin-top: 3%;
   color: white;
-  padding-top: 5%;
   padding-bottom: 2%;
-}
-#name, #mail, #text {
-  margin-bottom: 3%;
-}
-#btn {
-  background-color: skyblue;
-  color: white;
-}
-#form-group {
-  margin-left: 5%;
-  margin-top: 5%;
 }
 #social {
   text-align: center;
@@ -121,3 +108,11 @@
   max-height: 100%;
   padding-bottom: 10px;
 }
+.hintbox {
+  display: none;
+  color: #ffffff;
+  border: 2px solid white;
+  padding: 10px;
+  position: absolute;
+}
+

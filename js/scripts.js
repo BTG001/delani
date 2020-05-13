@@ -27,3 +27,23 @@ $(document).ready(function() {
     $(".product-showing").toggle();
   });
 });
+
+
+function validate() {
+    var username = document.getElementById("name");
+    var mail = document.getElementById("email");
+    var textarea = document.getElementById("text");
+
+    
+  if(username.value.trim() == "" || mail.value.trim() == "" || textarea.value.trim() == "")
+  {
+      alert("No blank values allowed");
+      return false;
+  }
+  else
+  {
+    true;
+  }
+  var textarea = document.getElementById("text").value;
+    alert(username.value + " we have received your message." + " Thank you for reaching out to us.")
+}
