@@ -28,6 +28,13 @@ $(document).ready(function() {
   });
 });
 
+$(document).ready(function () {
+  $('.col-md-3').mouseover(function () {
+      $('.overlay', this).show();                
+  }).mouseout(function () {
+      $('.overlay', this).hide();
+  });
+});
 
 function validate() {
     var username = document.getElementById("name");
