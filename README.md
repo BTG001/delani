@@ -51,7 +51,7 @@
 
   ### Github Pages
 
-  Here is a link to the live site on Github Pages 
+  Here is a link to the live site on Github Pages "https://btg001.github.io/delani/"
 
   ### Contact Information
 
